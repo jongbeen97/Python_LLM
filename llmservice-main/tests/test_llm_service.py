@@ -27,7 +27,7 @@ class test_llm_service:
         return response
 
 if __name__ == "__main__":
-    API_KEY ="AIzaSyClhxvEu6n0HCKowjTykCpZI0obWR6ynNM"
+    API_KEY ="--"
     tester = test_llm_service(API_KEY)
     tester.test_generate()
     tester.test_recommendation()
