@@ -25,6 +25,6 @@ class test_embedding_service:
       return vector
    
 if __name__ == "__main__":
-  api_key = "AIzaSyClhxvEu6n0HCKowjTykCpZI0obWR6ynNM"
+  api_key = "--"
   test = test_embedding_service(api_key)
   test.test_embed_text()
